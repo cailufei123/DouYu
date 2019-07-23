@@ -1,0 +1,18 @@
+platform :ios,'8.0'
+
+target 'DouYu' do
+
+pod 'AFNetworking'
+
+pod 'MJRefresh'
+
+pod 'SDWebImage'
+
+pod 'YYModel'
+
+pod 'MJExtension'
+
+pod 'FSCalendar'
+
+ pod 'CYLTabBarController'
+end
