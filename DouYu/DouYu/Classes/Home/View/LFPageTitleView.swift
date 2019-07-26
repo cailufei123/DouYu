@@ -151,6 +151,16 @@ extension LFPageTitleView{
         let moveTotalX = targetLabel.frame.origin.x -  sourceLabel.frame.origin.x
         
            let moveX = moveTotalX * progress
+        
+        //颜色的渐变(复杂)
+        //取出变化的范围
+        let colorDelta = (kSelectedColor.0 - kNormalColor.0,kSelectedColor.1 - kNormalColor.1,kSelectedColor.2 - kNormalColor.2)
+        
+        //变化sourceLabel字体颜色
+        sourceLabel.textColor = UIColor(r: kSelectedColor.0 - colorDelta.0 * progress, g: kSelectedColor.1 - colorDelta.1 * progress, b: kSelectedColor.2 - colorDelta.2 * progress)
+        //变化targetLabel字体颜色
+        targetLabel.textColor = UIColor(r: kNormalColor.0 + colorDelta.0 * progress, g: kNormalColor.1 + colorDelta.1 * progress, b: kNormalColor.2 + colorDelta.2 * progress)
+        
          //记录最新的index
         scrollViewLine.frame.origin.x = sourceLabel.frame.origin.x + moveX
         currentIndex = targetIndex

@@ -15,4 +15,7 @@ pod 'MJExtension'
 pod 'FSCalendar'
 
  pod 'CYLTabBarController'
+ 
+pod 'Alamofire'
+ 
 end

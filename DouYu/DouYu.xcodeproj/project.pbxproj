@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1870AA894BFD4E65EB90999 /* libPods-DouYu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93ADD64DEEADFED8FF1841A9 /* libPods-DouYu.a */; };
+		E626479822E84CA900629BC4 /* LFRecommondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626479722E84CA900629BC4 /* LFRecommondViewModel.swift */; };
 		E62A640822E5C3A10056E799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A640722E5C3A10056E799 /* AppDelegate.swift */; };
 		E62A640D22E5C3A10056E799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62A640B22E5C3A10056E799 /* Main.storyboard */; };
 		E62A641222E5C3A20056E799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62A641022E5C3A20056E799 /* LaunchScreen.storyboard */; };
@@ -26,6 +27,7 @@
 		E62A645B22E6F4DC0056E799 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645622E6F4DC0056E799 /* UIBarButtonItem+Extension.swift */; };
 		E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645C22E6F5470056E799 /* LFPageContentView.swift */; };
 		E62A645F22E7053B0056E799 /* LFRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645E22E7053A0056E799 /* LFRecommendController.swift */; };
+		E62A646122E835570056E799 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A646022E835570056E799 /* NetWorkTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		6F73CC4F6B1B95C4C1E8BE2A /* Pods-DouYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.release.xcconfig"; path = "Target Support Files/Pods-DouYu/Pods-DouYu.release.xcconfig"; sourceTree = "<group>"; };
 		93ADD64DEEADFED8FF1841A9 /* libPods-DouYu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C1FAA47FDAA14721BC570B /* Pods-DouYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYu.debug.xcconfig"; path = "Target Support Files/Pods-DouYu/Pods-DouYu.debug.xcconfig"; sourceTree = "<group>"; };
+		E626479722E84CA900629BC4 /* LFRecommondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommondViewModel.swift; sourceTree = "<group>"; };
 		E62A640422E5C3A10056E799 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62A640722E5C3A10056E799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62A640C22E5C3A10056E799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 		E62A645622E6F4DC0056E799 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		E62A645C22E6F5470056E799 /* LFPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPageContentView.swift; sourceTree = "<group>"; };
 		E62A645E22E7053A0056E799 /* LFRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommendController.swift; sourceTree = "<group>"; };
+		E62A646022E835570056E799 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWorkTool.swift; path = ../Home/NetWorkTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,14 @@
 				93ADD64DEEADFED8FF1841A9 /* libPods-DouYu.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E626479622E84C8B00629BC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E626479722E84CA900629BC4 /* LFRecommondViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E62A63FB22E5C3A10056E799 = {
@@ -189,10 +201,11 @@
 		E62A643622E5C46C0056E799 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E62A644C22E6BFDC0056E799 /* View */,
 				E62A644122E5CA160056E799 /* Objc-Bridge-Header.h */,
 				E62A643E22E5C53F0056E799 /* LFHomeViewController.swift */,
 				E62A645E22E7053A0056E799 /* LFRecommendController.swift */,
+				E62A644C22E6BFDC0056E799 /* View */,
+				E626479622E84C8B00629BC4 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -200,6 +213,7 @@
 		E62A643722E5C46C0056E799 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E62A646022E835570056E799 /* NetWorkTool.swift */,
 				E62A645122E6F4DC0056E799 /* Extension */,
 			);
 			path = Tools;
@@ -443,9 +457,11 @@
 				E62A645022E6CDB00056E799 /* Common.swift in Sources */,
 				E62A644322E5D8A80056E799 /* LFChoseRootControllerManager.swift in Sources */,
 				E62A644B22E5E1110056E799 /* LFFollowViewController.swift in Sources */,
+				E62A646122E835570056E799 /* NetWorkTool.swift in Sources */,
 				E62A640822E5C3A10056E799 /* AppDelegate.swift in Sources */,
 				E62A644722E5E0E90056E799 /* LFLiveViewController.swift in Sources */,
 				E62A645A22E6F4DC0056E799 /* NSDate+Estension.swift in Sources */,
+				E626479822E84CA900629BC4 /* LFRecommondViewModel.swift in Sources */,
 				E62A644922E5E0FF0056E799 /* LFProfileViewController.swift in Sources */,
 				E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */,
 				E62A643F22E5C53F0056E799 /* LFHomeViewController.swift in Sources */,
