@@ -28,6 +28,12 @@
 		E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645C22E6F5470056E799 /* LFPageContentView.swift */; };
 		E62A645F22E7053B0056E799 /* LFRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645E22E7053A0056E799 /* LFRecommendController.swift */; };
 		E62A646122E835570056E799 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A646022E835570056E799 /* NetWorkTool.swift */; };
+		E668009D22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668009B22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift */; };
+		E668009E22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E668009C22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib */; };
+		E66800A122F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668009F22F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift */; };
+		E66800A222F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66800A022F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib */; };
+		E66800A522F2CBDF0023A8F9 /* LFCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66800A322F2CBDE0023A8F9 /* LFCollectionReusableView.swift */; };
+		E66800A622F2CBDF0023A8F9 /* LFCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66800A422F2CBDE0023A8F9 /* LFCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +84,12 @@
 		E62A645C22E6F5470056E799 /* LFPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPageContentView.swift; sourceTree = "<group>"; };
 		E62A645E22E7053A0056E799 /* LFRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommendController.swift; sourceTree = "<group>"; };
 		E62A646022E835570056E799 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWorkTool.swift; path = ../Home/NetWorkTool.swift; sourceTree = "<group>"; };
+		E668009B22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFNormalCollectionViewCell.swift; sourceTree = "<group>"; };
+		E668009C22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFNormalCollectionViewCell.xib; sourceTree = "<group>"; };
+		E668009F22F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPrettyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E66800A022F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFPrettyCollectionViewCell.xib; sourceTree = "<group>"; };
+		E66800A322F2CBDE0023A8F9 /* LFCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCollectionReusableView.swift; sourceTree = "<group>"; };
+		E66800A422F2CBDE0023A8F9 /* LFCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +276,12 @@
 			children = (
 				E62A644D22E6BFF80056E799 /* LFPageTitleView.swift */,
 				E62A645C22E6F5470056E799 /* LFPageContentView.swift */,
+				E668009B22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift */,
+				E668009C22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib */,
+				E668009F22F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift */,
+				E66800A022F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib */,
+				E66800A322F2CBDE0023A8F9 /* LFCollectionReusableView.swift */,
+				E66800A422F2CBDE0023A8F9 /* LFCollectionReusableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -385,8 +403,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62A641222E5C3A20056E799 /* LaunchScreen.storyboard in Resources */,
+				E66800A222F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib in Resources */,
+				E668009E22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib in Resources */,
 				E62A644522E5DAE70056E799 /* Assets.xcassets in Resources */,
 				E62A640D22E5C3A10056E799 /* Main.storyboard in Resources */,
+				E66800A622F2CBDF0023A8F9 /* LFCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62A645F22E7053B0056E799 /* LFRecommendController.swift in Sources */,
+				E66800A122F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift in Sources */,
 				E62A645022E6CDB00056E799 /* Common.swift in Sources */,
 				E62A644322E5D8A80056E799 /* LFChoseRootControllerManager.swift in Sources */,
 				E62A644B22E5E1110056E799 /* LFFollowViewController.swift in Sources */,
@@ -461,8 +483,10 @@
 				E62A640822E5C3A10056E799 /* AppDelegate.swift in Sources */,
 				E62A644722E5E0E90056E799 /* LFLiveViewController.swift in Sources */,
 				E62A645A22E6F4DC0056E799 /* NSDate+Estension.swift in Sources */,
+				E66800A522F2CBDF0023A8F9 /* LFCollectionReusableView.swift in Sources */,
 				E626479822E84CA900629BC4 /* LFRecommondViewModel.swift in Sources */,
 				E62A644922E5E0FF0056E799 /* LFProfileViewController.swift in Sources */,
+				E668009D22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift in Sources */,
 				E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */,
 				E62A643F22E5C53F0056E799 /* LFHomeViewController.swift in Sources */,
 				E62A644E22E6BFF80056E799 /* LFPageTitleView.swift in Sources */,
