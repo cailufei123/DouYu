@@ -7,23 +7,24 @@
 //
 
 import UIKit
-
-class LFPrettyCollectionViewCell: UICollectionViewCell {
+import Kingfisher
+class LFPrettyCollectionViewCell: LFCollectionBaseCell {
 
    
-    //MARK:-属性
-    ///图片
-    @IBOutlet weak var topImageView: UIImageView!
-    ///在线人数
-    @IBOutlet weak var countLabel: UILabel!
-    ///标题
-    @IBOutlet weak var titleLabel: UILabel!
-    ///位置按钮
-    @IBOutlet weak var locationButton: UIButton!
+    // MARK:- 控件属性
+    @IBOutlet weak var cityBtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.topImageView.layer.cornerRadius = 5
-        self.titleLabel.layer.cornerRadius = 5
+       
     }
 
+    var prettypModel : LFAnchorModel? {
+        didSet{
+          super.anchor = prettypModel
+            // 2.所在的城市
+            cityBtn.setTitle(anchor?.anchor_city, for: .normal)
+        }
+    }
+    
+    
 }

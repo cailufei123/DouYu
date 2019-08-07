@@ -17,5 +17,6 @@ pod 'FSCalendar'
  pod 'CYLTabBarController'
  
 pod 'Alamofire'
- 
+
+ pod 'Kingfisher'
 end

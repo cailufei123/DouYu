@@ -28,6 +28,16 @@
 		E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645C22E6F5470056E799 /* LFPageContentView.swift */; };
 		E62A645F22E7053B0056E799 /* LFRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A645E22E7053A0056E799 /* LFRecommendController.swift */; };
 		E62A646122E835570056E799 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A646022E835570056E799 /* NetWorkTool.swift */; };
+		E63121FC22F96ACA0089E2DC /* LFAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63121FB22F96ACA0089E2DC /* LFAnchorGroup.swift */; };
+		E63121FE22F96ADF0089E2DC /* LFAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63121FD22F96ADF0089E2DC /* LFAnchorModel.swift */; };
+		E631220022FA6AD40089E2DC /* LFCollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63121FF22FA6AD30089E2DC /* LFCollectionBaseCell.swift */; };
+		E631220222FAC2990089E2DC /* LFRecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631220122FAC2980089E2DC /* LFRecommendCycleView.swift */; };
+		E631220422FAC2AC0089E2DC /* LFRecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E631220322FAC2AB0089E2DC /* LFRecommendCycleView.xib */; };
+		E631220722FAC7FC0089E2DC /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631220622FAC7FC0089E2DC /* CycleModel.swift */; };
+		E631220922FACE3A0089E2DC /* LFRecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631220822FACE3A0089E2DC /* LFRecommendGameView.swift */; };
+		E631220B22FACE490089E2DC /* LFRecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E631220A22FACE480089E2DC /* LFRecommendGameView.xib */; };
+		E631220E22FAD1410089E2DC /* LFCollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631220C22FAD1410089E2DC /* LFCollectionCycleCell.swift */; };
+		E631220F22FAD1410089E2DC /* LFCollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E631220D22FAD1410089E2DC /* LFCollectionCycleCell.xib */; };
 		E668009D22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668009B22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift */; };
 		E668009E22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E668009C22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib */; };
 		E66800A122F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668009F22F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift */; };
@@ -84,6 +94,16 @@
 		E62A645C22E6F5470056E799 /* LFPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPageContentView.swift; sourceTree = "<group>"; };
 		E62A645E22E7053A0056E799 /* LFRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommendController.swift; sourceTree = "<group>"; };
 		E62A646022E835570056E799 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWorkTool.swift; path = ../Home/NetWorkTool.swift; sourceTree = "<group>"; };
+		E63121FB22F96ACA0089E2DC /* LFAnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAnchorGroup.swift; sourceTree = "<group>"; };
+		E63121FD22F96ADF0089E2DC /* LFAnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFAnchorModel.swift; sourceTree = "<group>"; };
+		E63121FF22FA6AD30089E2DC /* LFCollectionBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCollectionBaseCell.swift; sourceTree = "<group>"; };
+		E631220122FAC2980089E2DC /* LFRecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommendCycleView.swift; sourceTree = "<group>"; };
+		E631220322FAC2AB0089E2DC /* LFRecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFRecommendCycleView.xib; sourceTree = "<group>"; };
+		E631220622FAC7FC0089E2DC /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		E631220822FACE3A0089E2DC /* LFRecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFRecommendGameView.swift; sourceTree = "<group>"; };
+		E631220A22FACE480089E2DC /* LFRecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFRecommendGameView.xib; sourceTree = "<group>"; };
+		E631220C22FAD1410089E2DC /* LFCollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCollectionCycleCell.swift; sourceTree = "<group>"; };
+		E631220D22FAD1410089E2DC /* LFCollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFCollectionCycleCell.xib; sourceTree = "<group>"; };
 		E668009B22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFNormalCollectionViewCell.swift; sourceTree = "<group>"; };
 		E668009C22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LFNormalCollectionViewCell.xib; sourceTree = "<group>"; };
 		E668009F22F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFPrettyCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -216,6 +236,7 @@
 				E62A644122E5CA160056E799 /* Objc-Bridge-Header.h */,
 				E62A643E22E5C53F0056E799 /* LFHomeViewController.swift */,
 				E62A645E22E7053A0056E799 /* LFRecommendController.swift */,
+				E631220522FAC7E80089E2DC /* Model */,
 				E62A644C22E6BFDC0056E799 /* View */,
 				E626479622E84C8B00629BC4 /* ViewModel */,
 			);
@@ -265,6 +286,9 @@
 		E62A643C22E5C46C0056E799 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E63121FA22F96A2B0089E2DC /* Controller */,
+				E63121F822F96A2B0089E2DC /* Model */,
+				E63121F922F96A2B0089E2DC /* View */,
 				E62A644222E5D8A80056E799 /* LFChoseRootControllerManager.swift */,
 				E62A644F22E6CDB00056E799 /* Common.swift */,
 			);
@@ -282,6 +306,13 @@
 				E66800A022F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib */,
 				E66800A322F2CBDE0023A8F9 /* LFCollectionReusableView.swift */,
 				E66800A422F2CBDE0023A8F9 /* LFCollectionReusableView.xib */,
+				E63121FF22FA6AD30089E2DC /* LFCollectionBaseCell.swift */,
+				E631220122FAC2980089E2DC /* LFRecommendCycleView.swift */,
+				E631220322FAC2AB0089E2DC /* LFRecommendCycleView.xib */,
+				E631220822FACE3A0089E2DC /* LFRecommendGameView.swift */,
+				E631220A22FACE480089E2DC /* LFRecommendGameView.xib */,
+				E631220C22FAD1410089E2DC /* LFCollectionCycleCell.swift */,
+				E631220D22FAD1410089E2DC /* LFCollectionCycleCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +325,37 @@
 				E62A645622E6F4DC0056E799 /* UIBarButtonItem+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E63121F822F96A2B0089E2DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E63121FB22F96ACA0089E2DC /* LFAnchorGroup.swift */,
+				E63121FD22F96ADF0089E2DC /* LFAnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E63121F922F96A2B0089E2DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E63121FA22F96A2B0089E2DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E631220522FAC7E80089E2DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E631220622FAC7FC0089E2DC /* CycleModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +422,7 @@
 		E62A63FC22E5C3A10056E799 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF;
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = cailufei;
@@ -403,10 +466,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62A641222E5C3A20056E799 /* LaunchScreen.storyboard in Resources */,
+				E631220B22FACE490089E2DC /* LFRecommendGameView.xib in Resources */,
 				E66800A222F2C3600023A8F9 /* LFPrettyCollectionViewCell.xib in Resources */,
 				E668009E22F2C3220023A8F9 /* LFNormalCollectionViewCell.xib in Resources */,
 				E62A644522E5DAE70056E799 /* Assets.xcassets in Resources */,
+				E631220F22FAD1410089E2DC /* LFCollectionCycleCell.xib in Resources */,
 				E62A640D22E5C3A10056E799 /* Main.storyboard in Resources */,
+				E631220422FAC2AC0089E2DC /* LFRecommendCycleView.xib in Resources */,
 				E66800A622F2CBDF0023A8F9 /* LFCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,8 +540,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63121FC22F96ACA0089E2DC /* LFAnchorGroup.swift in Sources */,
 				E62A645F22E7053B0056E799 /* LFRecommendController.swift in Sources */,
 				E66800A122F2C3600023A8F9 /* LFPrettyCollectionViewCell.swift in Sources */,
+				E631220E22FAD1410089E2DC /* LFCollectionCycleCell.swift in Sources */,
 				E62A645022E6CDB00056E799 /* Common.swift in Sources */,
 				E62A644322E5D8A80056E799 /* LFChoseRootControllerManager.swift in Sources */,
 				E62A644B22E5E1110056E799 /* LFFollowViewController.swift in Sources */,
@@ -485,12 +553,17 @@
 				E62A645A22E6F4DC0056E799 /* NSDate+Estension.swift in Sources */,
 				E66800A522F2CBDF0023A8F9 /* LFCollectionReusableView.swift in Sources */,
 				E626479822E84CA900629BC4 /* LFRecommondViewModel.swift in Sources */,
+				E63121FE22F96ADF0089E2DC /* LFAnchorModel.swift in Sources */,
 				E62A644922E5E0FF0056E799 /* LFProfileViewController.swift in Sources */,
 				E668009D22F2C3220023A8F9 /* LFNormalCollectionViewCell.swift in Sources */,
 				E62A645D22E6F5470056E799 /* LFPageContentView.swift in Sources */,
 				E62A643F22E5C53F0056E799 /* LFHomeViewController.swift in Sources */,
 				E62A644E22E6BFF80056E799 /* LFPageTitleView.swift in Sources */,
+				E631220022FA6AD40089E2DC /* LFCollectionBaseCell.swift in Sources */,
 				E62A645822E6F4DC0056E799 /* UIColor+Extension.swift in Sources */,
+				E631220222FAC2990089E2DC /* LFRecommendCycleView.swift in Sources */,
+				E631220922FACE3A0089E2DC /* LFRecommendGameView.swift in Sources */,
+				E631220722FAC7FC0089E2DC /* CycleModel.swift in Sources */,
 				E62A645B22E6F4DC0056E799 /* UIBarButtonItem+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,5 +50,5 @@ let kTabBarH : CGFloat = ((isiPhoneX == true || isiPhoneXR == true || isiPhoneXS
 /** home indicator */
 let kHomeIndicatorH : CGFloat = ((isiPhoneX == true || isiPhoneXR == true || isiPhoneXS_Max == true) ? 34.0 : 0.0)
 @_exported import Alamofire
-
+@_exported import Kingfisher
 

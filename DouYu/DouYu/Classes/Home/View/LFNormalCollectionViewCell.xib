@@ -67,10 +67,10 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="262" height="230"/>
             <connections>
-                <outlet property="countButton" destination="Qk0-Ee-l39" id="vqu-G9-HbQ"/>
-                <outlet property="infoLabel" destination="ICe-f3-Puc" id="PWR-MS-k9b"/>
-                <outlet property="nameLabel" destination="dh5-dp-qOh" id="maD-cb-RpH"/>
-                <outlet property="topImageView" destination="rzb-qM-MLj" id="ixf-tq-RH4"/>
+                <outlet property="iconImageView" destination="rzb-qM-MLj" id="aZ7-Yy-W1C"/>
+                <outlet property="nickNameLabel" destination="dh5-dp-qOh" id="ag5-gJ-tve"/>
+                <outlet property="onlineBtn" destination="Qk0-Ee-l39" id="RmP-Am-GIR"/>
+                <outlet property="roomNameLabel" destination="ICe-f3-Puc" id="ZCl-S6-EqE"/>
             </connections>
             <point key="canvasLocation" x="291.304347826087" y="64.955357142857139"/>
         </collectionViewCell>

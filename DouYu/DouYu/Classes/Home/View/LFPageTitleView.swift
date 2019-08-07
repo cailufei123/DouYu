@@ -102,6 +102,8 @@ extension LFPageTitleView{
        guard let currentLable = tap.view as? UILabel else{
             return
         }
+        // 1.如果是重复点击同一个Title,那么直接返回
+        if currentLable.tag == currentIndex { return }
         let oldLable = titleLables[currentIndex]
         currentLable.textColor = UIColor.orange
         oldLable.textColor = UIColor.lightGray

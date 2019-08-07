@@ -8,19 +8,18 @@
 
 import UIKit
 
-class LFNormalCollectionViewCell: UICollectionViewCell {
-    //MARK:- 属性
-    ///图片
-    @IBOutlet weak var topImageView: UIImageView!
-    ///昵称
-    @IBOutlet weak var nameLabel: UILabel!
-    ///在线人数
-    @IBOutlet weak var countButton: UIButton!
-    ///简介
-    @IBOutlet weak var infoLabel: UILabel!
+class LFNormalCollectionViewCell: LFCollectionBaseCell {
+       // MARK:- 控件的属性
+    @IBOutlet weak var roomNameLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    var prettypModel : LFAnchorModel? {
+        didSet{
+           super.anchor = prettypModel
+          
+            roomNameLabel.text = prettypModel?.room_name
+        }
+    }
 }
