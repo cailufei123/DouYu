@@ -19,7 +19,8 @@ class LFRecommendCycleView: UIView {
         // 设置该控件不随着父控件的拉伸而拉伸
         autoresizingMask = UIView.AutoresizingMask()
         collocationView.register(UINib(nibName: "LFCollectionCycleCell", bundle: nil), forCellWithReuseIdentifier: kcycleCellID)
-   
+        //让子控件根据父控件的宽高进行缩放
+        collocationView.autoresizingMask = [.flexibleHeight,.flexibleWidth]
         collocationView.delegate = self
         collocationView.dataSource = self
     }
